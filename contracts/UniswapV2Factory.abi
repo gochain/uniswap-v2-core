@@ -162,6 +162,21 @@
   },
   {
     "constant": false,
+    "inputs": [],
+    "name": "pairInitCode",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "initCode",
+        "type": "bytes32"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
     "inputs": [
       {
         "internalType": "address",

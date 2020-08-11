@@ -46,4 +46,9 @@ contract UniswapV2Factory is IUniswapV2Factory {
         require(msg.sender == feeToSetter, 'UniswapV2: FORBIDDEN');
         feeToSetter = _feeToSetter;
     }
+
+    function pairInitCode() public returns (bytes32 initCode) {
+        initCode = keccak256(type(UniswapV2Pair).creationCode);
+        return initCode;
+    }
 }
