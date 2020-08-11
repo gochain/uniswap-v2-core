@@ -1,1 +1,8 @@
 lib/oz
+IERC20.*
+Math.*
+SafeMath.*
+UQ112*
+UniswapV2ER*
+IUniswapV2*
+UniswapV2Pair*
