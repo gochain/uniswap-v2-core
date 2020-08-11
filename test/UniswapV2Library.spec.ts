@@ -21,6 +21,6 @@ describe('UniswapV2Library', () => {
 
     it('initHash', async () => {
         var hash = await hasher.initHash();
-        expect(hash).to.eq("0x345929ea4d0bd4e4f9553e143bf6804725c83deb4612a47ac322d2613f5393ef");
+        expect(hash).to.eq("0xf67eb8143e5a1324e1838ed998cb469c9741b51856a312f9af59bb2870a6fa8e");
     })
 })
